@@ -7,7 +7,7 @@ int main(){
     int RandNumber =  rand()%100 +1 ;
     int guess=0;
     int attempts = 0;
-    cout<<"I have picked a random number. Please try to guess it "<<endl;
+    cout<<"I have picked a random number between 1 and 100. Please try to guess it "<<endl;
     while(guess!=RandNumber){
            cout<<" Enter your guess:"<<endl;
     cin>>guess;
