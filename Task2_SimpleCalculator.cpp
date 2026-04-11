@@ -14,7 +14,7 @@ int main() {
         case '*': cout << "Result: " << a * b << endl; break;
         case '/':
             if (b != 0)
-                cout << "Result: " << a / b << endl;
+                cout <<"Result: " << a / b << endl;
             else
                 cout << "Cannot divide by zero." << endl;
             break;
